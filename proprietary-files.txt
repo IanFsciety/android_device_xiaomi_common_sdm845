@@ -794,7 +794,5 @@ vendor/lib64/hw/vr.sdm845.so
 vendor/lib/hw/vr.sdm845.so
 
 # WiFi
-vendor/bin/cnss-daemon
-vendor/bin/nv_mac
 vendor/lib64/libqminvapi.so
 vendor/lib/libqminvapi.so
