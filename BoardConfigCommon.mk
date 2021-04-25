@@ -92,7 +92,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 endif
 
 ifneq ($(filter equuleus perseus polaris ursa,$(TARGET_DEVICE)),)
-  DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(COMMON_PATH)/vendor_aosp_nfc_framework_compatibility_matrix.xml
 endif
 # LMKD
